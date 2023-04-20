@@ -1,0 +1,8 @@
+subitems:
+  - title: About
+    url: /index
+  - title: Example page
+    url: /example_page
+  - title: Contributors
+    url: /contributors
+  
