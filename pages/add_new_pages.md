@@ -8,12 +8,12 @@ toc: false
 ---
 
 
-Individual pages are created using the [`guide_template.md`](docs/guide_template.md): use the template to create as many pages as you need for your guide (i.e. copy and rename the `guide_template.md` to create a new page).
+Individual pages are created using the [`example_page.md`](pages/example_page.md): use the template to create as many pages as you need for your guide (i.e. copy and rename the `example_page.md` to create a new page).
 
 ## For each new page
 
-1. Copy `guide_template.md` and rename it
-2. Add these files to the `/docs` directory to keep your work organised
+1. Copy contents of `example_page.md` into a new file and rename it
+2. Add these files to the `/pages` directory to keep your work organised
 3. Update the header content. An example of this is included below. You need to add a `title`, `contributors`, `description` and `affiliations`.
 
 ```
