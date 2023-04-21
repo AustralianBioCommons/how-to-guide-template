@@ -15,5 +15,23 @@ The `_config.yml` and `main.yml` (located in `_data/sidebars/`) files determine 
 Each new page that is included needs to be added to the `main.yml` file so that it appears in the left hand navigation menu. An example of this code is provided below for the current How-to Guide:
 
 ```
-
+subitems:
+  - title: About
+    url: /
+  - title: 1. Create a new repository
+    url: /create_new
+  - title: 2. Update your landing page content
+    url: /update_index
+  - title: 3. Add new pages to your guide
+    url: /add_new_pages
+  - title: 4. Update configuration files
+    url: /structure
+  - title: 5. Test and improve your guide content
+    url: /improve_content
+  - title: 6. Make your guide citable
+    url: /zenodo
+  - title: Optional extra features
+    url: /extras
+  - title: Contributors
+    url: /contributors
 ```
