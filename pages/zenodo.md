@@ -1,5 +1,5 @@
 ---
-title: Creating GitHub releases and Zenodo DOIs for How-to Guides
+title: Creating GitHub releases and Zenodo DOIs
 type: guides
 contributors: [Johan Gustafsson]
 description: How to create GitHub releases for your How-to Guide and link this to Zenodo to generate digital object identifiers (DOIs).
@@ -20,7 +20,7 @@ toc: false
 {:start="3"}
 3. Add the DOI (or even a complete citation!) into your how-to-cite instructions on the `index.md` page
 
-4. Update the DOI field in the `CITATION.cff` file. 
+4. Update the DOI field in the [`CITATION.cff` file](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/CITATION.cff). 
 
 {% include callout.html type="important" content="A blank `CITATION.cff` example is provided below. Don't forget to fill out the other metadata in this file!" %} 
 
