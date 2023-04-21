@@ -8,7 +8,7 @@ toc: false
 ---
 
 
-Individual pages are created using the [`example_page.md`](pages/example_page.md): use the template to create as many pages as you need for your guide (i.e. copy and rename the `example_page.md` to create a new page).
+Individual pages are created using the [`example_page.md`](example_page.md): use the template to create as many pages as you need for your guide (i.e. copy and rename the `example_page.md` to create a new page).
 
 ## For each new page
 
@@ -34,14 +34,14 @@ type: guides
 
 ## Other required information
 
-{:start="4"}
+{:start="5"}
 4. Add your name to `CONTRIBUTORS.yml`
 
 This ensures your name renders properly on each guide page that it has been added to. 
 
 The file can be found in the `/_data` directory.
 
-{:start="5"}
+{:start="6"}
 5.  Update `affiliations.yml` (if needed)
 
 If you are adding a new affiliation, also update `affiliations.yml`, which can also be found in the `/_data` directory. 
