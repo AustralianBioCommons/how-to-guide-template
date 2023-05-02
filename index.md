@@ -43,8 +43,8 @@ This guide makes use of the ELIXIR toolkit theme: [![theme badge](https://img.sh
 
 ## References
 
-> Bert Droesbeke, rafael buono, Finn Bacall, Marek Suchánek, Marion, & Nami Sunami. (2023). ELIXIR-Belgium/elixir-toolkit-theme: 1.25.0 - New contributor placeholders and copy to clipboard (1.25.0). Zenodo. https://doi.org/10.5281/zenodo.7764358
+> Bert Droesbeke, rafael buono, Finn Bacall, Marek Suchánek, Marion, & Nami Sunami. (2023). ELIXIR-Belgium/elixir-toolkit-theme: 1.25.0 - New contributor placeholders and copy to clipboard (1.25.0). Zenodo. [https://doi.org/10.5281/zenodo.7764358](https://doi.org/10.5281/zenodo.7764358)
 
-> Druskat, Stephan, Spaaks, Jurriaan H., Chue Hong, Neil, Haines, Robert, Baker, James, Bliven, Spencer, Willighagen, Egon, Pérez-Suárez, David, & Konovalov, Alexander. (2021). Citation File Format (1.2.0). Zenodo. https://doi.org/10.5281/zenodo.5171937
+> Druskat, Stephan, Spaaks, Jurriaan H., Chue Hong, Neil, Haines, Robert, Baker, James, Bliven, Spencer, Willighagen, Egon, Pérez-Suárez, David, & Konovalov, Alexander. (2021). Citation File Format (1.2.0). Zenodo. [https://doi.org/10.5281/zenodo.5171937](https://doi.org/10.5281/zenodo.5171937)
  
  

@@ -10,7 +10,8 @@ toc: false
 
 ## Create a new repository
 
-Use [**this repository**](https://github.com/AustralianBioCommons/guide-template) as a template for a new repository in your account or GitHub organisation.
+{% include callout.html type="important" content="Use [**this template repository**](https://github.com/AustralianBioCommons/guide-template) to create a new repository in your GitHub account or organisation." %}
+
 
 ## Understand its structure
 
