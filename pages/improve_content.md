@@ -20,7 +20,7 @@ Make sure to select the options `Project site` and `Start from scratch`: this wi
 
 #### Testing functional content
 
-As an example, some How-to Guides detail the use of the bioinformatics platform Galaxy and its application to analysis of real world data. It is critical that the functional content included (tools, workflows, code) is tested by:
+As an example, some How-to Guides detail the use of the bioinformatics platform Galaxy and demonstrate its application to analysis of real world data. It is critical that the functional content included (tools, workflows, code) is tested by:
 
 1. The original developer ( *if this isn't you* ); and
 2. New users who have never seen the content before
