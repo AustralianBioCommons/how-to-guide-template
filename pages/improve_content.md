@@ -10,13 +10,20 @@ toc: false
 
 ### Deploy to GitHub pages
 
-The documentation for GitHub shows how to set up [GitHub pages](https://pages.github.com/) for your repository.
+To deploy your guide to GitHub pages:
+
+1. Go to your repository `Settings`;
+2. Select `Pages` from the left hand navigation menu;
+3. In the `Source` drop-down menu select `Deploy from branch`;
+4. In the `Branch` drop-down menu select `Main`; and,
+5. Click `Save`
+
+The documentation for GitHub provides additional information on how to [**set up GitHub pages for your repository**](https://pages.github.com/).
 
 Make sure to select the options `Project site` and `Start from scratch`: this will provide a straightforward walkthrough for setting up GitHub pages.
 
 
 ### Improve your How-to Guide
-
 
 #### Testing functional content
 

@@ -7,11 +7,9 @@ subitems:
     url: /update_index
   - title: 3. Add new pages to your guide
     url: /add_new_pages
-  - title: 4. Update configuration files
-    url: /structure
-  - title: 5. Test and improve your guide content
+  - title: 4. Test and improve your guide content
     url: /improve_content
-  - title: 6. Make your guide citable
+  - title: 5. Make your guide citable
     url: /zenodo
   - title: Optional extra features
     url: /extras
