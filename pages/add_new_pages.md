@@ -81,7 +81,7 @@ The two options for including images are shown below, and an example of the seco
 ```
 {% endraw %}
 
-{% include image.html file="/images/main_logo.png" caption="Figure 1. The Australian BioCommons logo." alt="Australian BioCommons logo" max-width="10" %}
+{% include image.html file="./images/main_logo.png" caption="Figure 1. The Australian BioCommons logo." alt="Australian BioCommons logo" max-width="10" %}
 
 
 ### Message boxes
