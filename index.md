@@ -2,6 +2,7 @@
 title: How-to Guide for creating a How-to Guide
 contributors: [Johan Gustafsson]
 affiliations: [Australian BioCommons]
+toc: false
 ---
 
 
