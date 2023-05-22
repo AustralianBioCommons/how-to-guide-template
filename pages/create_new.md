@@ -8,12 +8,12 @@ toc: false
 ---
 
 
-## Create a new repository
+## 1. Create a new repository
 
 {% include callout.html type="important" content="Use [**this template repository**](https://github.com/AustralianBioCommons/guide-template) to create a new repository in your GitHub account or organisation." %}
 
 
-## Understand its structure
+## 2. Understand its structure
 
 The repository has the following directories and files:
 

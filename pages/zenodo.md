@@ -8,19 +8,19 @@ toc: false
 ---
 
 
-### GitHub & Zenodo
+## GitHub & Zenodo
 
-1. [Create a GitHub release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
+### 1. [Create a GitHub release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
 
-2. Link your repository to Zenodo. More information is [available in GitHub docs](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content). 
+### 2. Link your repository to Zenodo
+More information is [available in GitHub docs](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content). 
 
 
-### Adding the DOI to your guide
+## Adding the DOI to your guide
 
-{:start="3"}
-3. Add the DOI (or even a complete citation!) into your how-to-cite instructions on the `index.md` page
+### 3. Add the DOI (or even a complete citation!) into your how-to-cite instructions on the `index.md` page
 
-4. Update the DOI field in the [`CITATION.cff` file](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/CITATION.cff). 
+### 4. Update the DOI field in the [`CITATION.cff` file](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/CITATION.cff) 
 
 {% include callout.html type="important" content="A blank `CITATION.cff` example is provided below. Don't forget to fill out the other metadata in this file!" %} 
 

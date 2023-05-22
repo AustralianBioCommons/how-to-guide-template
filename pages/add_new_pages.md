@@ -4,6 +4,7 @@ type: guides
 contributors: [Johan Gustafsson]
 description: How to create and update new pages for your How-to Guide.
 affiliations: [Australian BioCommons]
+toc_depth: 2
 ---
 
 
@@ -11,9 +12,9 @@ Individual pages are created using the [`example_page.md`](https://github.com/Au
 
 ## For each new page
 
-1. Copy contents of `example_page.md` into a new file and rename it
-2. Add these files to the `/pages` directory to keep your work organised
-3. Update the header content. An example of this is included below. You need to add a `title`, `contributors`, `description` and `affiliations`.
+### 1. Copy contents of `example_page.md` into a new file and rename it
+### 2. Add these files to the `/pages` directory to keep your work organised
+### 3. Update the header content. An example of this is included below. You need to add a `title`, `contributors`, `description` and `affiliations`
 
 ```
 ---
@@ -24,8 +25,8 @@ affiliations: [Australian BioCommons]
 ---   
 ```
 
-{:start="4"}
-4. You can also add another optional line for `type`. Example code is provided below. This can be used to identify subsets of guide pages: for example if you want to include navigation tiles for only specific pages (see [Optional extra features](extras.md)). This text will also appear at the top of the page in the final website: [an example is available here](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages). 
+### 4. You can also add another optional line for `type` 
+Example code is provided below. This can be used to identify subsets of guide pages: for example if you want to include navigation tiles for only specific pages (see [Optional extra features](extras.md)). This text will also appear at the top of the page in the final website: [an example is available here](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages). 
 
 ```
 type: guides
@@ -33,8 +34,8 @@ type: guides
 
 ## Adding new pages to your guide configuration files
 
-{:start="5"}
-5. Each new page that is included needs to be added to the `main.yml` file so that it appears in the left hand navigation menu. An example of this code is provided below for the current How-to Guide:
+### 5. Each new page that is included needs to be added to the `main.yml` file so that it appears in the left hand navigation menu. 
+An example of this code is provided below for the current How-to Guide:
 
 ```
 subitems:
@@ -61,6 +62,31 @@ subitems:
 There are many other options for configuring your guide web page differently and adding more complicated page and navigation structures. For more information please visit the [ELIXIR Toolkit theme documentation](https://elixir-belgium.github.io/elixir-toolkit-theme/).
 
 {% include callout.html type="important" content="You will only need to modify the `_config.yml` if you wish to make major changes to the way your new guide repository makes use of the remote ELIXIR ToolKit theme. Instructions for how to do this, and what the different options are, can be [found here](https://elixir-belgium.github.io/elixir-toolkit-theme/configuring_theme). " %}
+
+
+## Contributors and affiliations
+
+### 6. Add your name to [`CONTRIBUTORS.yml`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/_data/CONTRIBUTORS.yml)
+
+This ensures your name renders properly on each guide page that it has been added to. 
+
+The file can be found in the `/_data` directory.
+
+### 7. Update [`affiliations.yml`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/_data/affiliations.yml) (if needed)
+
+If you are adding a new affiliation, also update `affiliations.yml`, which can also be found in the `/_data` directory. 
+   - The affiliations in the header content above require this information to be available. 
+   - A new example affiliation is available below: note that it also includes an image / logo which should be added to the `/images` directory.
+
+```
+- name: Galaxy Australia
+  image_url: /images/infrastructures/galaxy-aust-logo-portrait-CMYK.png
+  expose: true
+  type: infrastructure
+  url: https://usegalaxy.org.au/
+```
+
+{% include callout.html type="note" content="You can add logos to the `/images` directory." %}
 
 
 ## Images & message boxes
@@ -105,28 +131,3 @@ An example is provided below, showing first the raw code you need to use and the
 {% include callout.html type="warning" content="Definitely pay attention to this message box!" %}
 
 
-## Contributors and affiliations
-
-{:start="6"}
-6. Add your name to [`CONTRIBUTORS.yml`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/_data/CONTRIBUTORS.yml)
-
-This ensures your name renders properly on each guide page that it has been added to. 
-
-The file can be found in the `/_data` directory.
-
-{:start="7"}
-7. Update [`affiliations.yml`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/_data/affiliations.yml) (if needed)
-
-If you are adding a new affiliation, also update `affiliations.yml`, which can also be found in the `/_data` directory. 
-   - The affiliations in the header content above require this information to be available. 
-   - A new example affiliation is available below: note that it also includes an image / logo which should be added to the `/images` directory.
-
-```
-- name: Galaxy Australia
-  image_url: /images/infrastructures/galaxy-aust-logo-portrait-CMYK.png
-  expose: true
-  type: infrastructure
-  url: https://usegalaxy.org.au/
-```
-
-{% include callout.html type="note" content="You can add logos to the `/images` directory." %}
