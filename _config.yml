@@ -7,7 +7,7 @@ title: How-to create a How-to Guide
 description: "How to create and begin updating a repository for a new How-to Guide, based on a template repository."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.25.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.26.0
 
 theme_variables:
   # biocommons blue
