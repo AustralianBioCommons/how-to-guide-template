@@ -25,11 +25,6 @@ The template described in these docs aims to:
 ## Process diagram
 
 
-
-## Quick start and templates
-
-{% include section-navigation-tiles.html type="quick_start" %}
-
 ## Please cite this guide as follows
 
 > [Citation information goes here]

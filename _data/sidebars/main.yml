@@ -1,6 +1,8 @@
 subitems:
   - title: Home
     url: /
+  - title: Quick start
+    url: /quick_start.md
   - title: 1. Create a new repository
     url: /create_new
   - title: 2. Update your landing page content
