@@ -34,8 +34,9 @@ The template described in these docs aims to:
 
 This work is supported by the [Australian BioCommons](https://www.biocommons.org.au/) which is enabled by NCRIS via [Bioplatforms Australia](https://bioplatforms.com/) funding.
 
-This guide makes use of the ELIXIR toolkit theme: [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
+This guide makes use of the [ELIXIR toolkit theme](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
+![](./assets/img/elixir-toolkit-theme_logo.svg)
 
 ## References
 
