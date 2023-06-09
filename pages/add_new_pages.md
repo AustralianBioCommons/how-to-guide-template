@@ -12,11 +12,11 @@ Individual pages are created using the [`example_page.md`](https://github.com/Au
 
 ## For each new page
 
-### 1. Copy contents of `example_page.md` into a new file and rename it
-### 2. Add these files to the `/pages` directory to keep your work organised
-### 3. Update the header content. An example of this is included below. You need to add a `title`, `contributors`, `description` and `affiliations`
+1. Copy contents of `example_page.md` into a new file and rename it
+2. Add these files to the `/pages` directory to keep your work organised
+3. Update the header content. An example of this is included below. You need to add a `title`, `contributors`, `description` and `affiliations`
 
-```
+```yaml
 ---
 title: [How-to Guide template]
 contributors: [Johan Gustafsson]
@@ -25,19 +25,17 @@ affiliations: [Australian BioCommons]
 ---   
 ```
 
-### 4. You can also add another optional line for `type` 
+4. You can also add another optional line for `type` 
 Example code is provided below. This can be used to identify subsets of guide pages: for example if you want to include navigation tiles for only specific pages (see [Optional extra features](extras.md)). This text will also appear at the top of the page in the final website: [an example is available here](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages). 
 
-```
+```yaml
 type: guides
 ```
 
-## Adding new pages to your guide configuration files
-
-### 5. Each new page that is included needs to be added to the `main.yml` file so that it appears in the left hand navigation menu. 
+5. Each new page that is included needs to be added to the `main.yml` file so that it appears in the left hand navigation menu. 
 An example of this code is provided below for the current How-to Guide:
 
-```
+```yaml
 subitems:
   - title: About
     url: /
@@ -63,22 +61,32 @@ There are many other options for configuring your guide web page differently and
 
 {% include callout.html type="important" content="You will only need to modify the `_config.yml` if you wish to make major changes to the way your new guide repository makes use of the remote ELIXIR ToolKit theme. Instructions for how to do this, and what the different options are, can be [found here](https://elixir-belgium.github.io/elixir-toolkit-theme/configuring_theme). " %}
 
-
-## Contributors and affiliations
-
-### 6. Add your name to [`CONTRIBUTORS.yml`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/_data/CONTRIBUTORS.yml)
+6. Add your name to [`CONTRIBUTORS.yml`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/_data/CONTRIBUTORS.yml)
 
 This ensures your name renders properly on each guide page that it has been added to. 
 
 The file can be found in the `/_data` directory.
 
-### 7. Update [`affiliations.yml`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/_data/affiliations.yml) (if needed)
+The text you add should look like this:
+
+```yaml
+Firstname Lastname:
+    git: github_username
+    email: users@email.com
+    orcid: 0000-1234-5678-9012
+    role: users_role
+    affiliation: declared affiliation (not linked)
+```
+
+Once a user is listed in this way in this file, a tile will be generated on the Contributors page.
+
+7. If you added an affiliation above, update [`affiliations.yml`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/_data/affiliations.yml)
 
 If you are adding a new affiliation, also update `affiliations.yml`, which can also be found in the `/_data` directory. 
    - The affiliations in the header content above require this information to be available. 
    - A new example affiliation is available below: note that it also includes an image / logo which should be added to the `/images` directory.
 
-```
+```yaml
 - name: Galaxy Australia
   image_url: /images/infrastructures/galaxy-aust-logo-portrait-CMYK.png
   expose: true
@@ -89,14 +97,14 @@ If you are adding a new affiliation, also update `affiliations.yml`, which can a
 {% include callout.html type="note" content="You can add logos to the `/images` directory." %}
 
 
-## Images & message boxes
+## Adding images & message boxes
 
 Including images and message boxes can make your guide much easier to read and understand. Some examples of how to add these elements to your guide are included below.
 
 More details on images and message boxes can be found in the [documentation for the ELIXIR Toolkit theme](https://elixir-belgium.github.io/elixir-toolkit-theme/markdown_cheat_sheet#message-boxes).
 
 
-### Image
+### Images
 
 The two options for including images are shown below, and an example of the second option is shown rendered on this page.
 

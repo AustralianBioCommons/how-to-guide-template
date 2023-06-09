@@ -6,9 +6,6 @@ toc: false
 ---
 
 
-{% include callout.html type="warning" content="This website is currently under active development!" %}
-
-
 ## About
 
 You are viewing a web page that describes How-to create new How-to Guides using a GitHub repository template. 
@@ -23,12 +20,10 @@ The template described in these docs aims to:
 {% include callout.html type="note" content="the instructions below are for a simple guide that can accommodate a few pages only: if you require more complicated structures, please contact @supernord" %}
 
 
-## Process diagram
-
-
 ## Please cite this guide as follows
 
 > [Citation information goes here]
+
 
 ## Acknowledgements
 
@@ -37,6 +32,11 @@ This work is supported by the [Australian BioCommons](https://www.biocommons.org
 This guide makes use of the [ELIXIR toolkit theme](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
 ![](./assets/img/elixir-toolkit-theme_logo.svg)
+
+Ideas have also been drawn from other websites using this theme including:
+- [Infectious Diseases Toolkit](https://www.infectious-diseases-toolkit.org/)
+- [RDMKit](https://rdmkit.elixir-europe.org/)
+
 
 ## References
 
