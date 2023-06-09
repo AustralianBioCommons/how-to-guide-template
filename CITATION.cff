@@ -4,6 +4,9 @@ authors:
   - family-names: Gustafsson
     given-names: Johan
     orcid: https://orcid.org/0000-0002-2977-5032
+  - family-names: Shadbolt
+    given-names: Marion
+    orcid: https://orcid.org/0000-0001-7505-5418
 title: "How-to Guide for creating a How-to Guide"
 version: 0.0.0
 doi: [DOI goes here]
