@@ -25,14 +25,18 @@ affiliations: [Australian BioCommons]
 ---   
 ```
 
-4. You can also add another optional line for `type` 
+{:start="4"}
+4. You can also add another optional line for `type`. 
+
 Example code is provided below. This can be used to identify subsets of guide pages: for example if you want to include navigation tiles for only specific pages (see [Optional extra features](extras.md)). This text will also appear at the top of the page in the final website: [an example is available here](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages). 
 
 ```yaml
 type: guides
 ```
 
+{:start="5"}
 5. Each new page that is included needs to be added to the `main.yml` file so that it appears in the left hand navigation menu. 
+
 An example of this code is provided below for the current How-to Guide:
 
 ```yaml
@@ -61,6 +65,7 @@ There are many other options for configuring your guide web page differently and
 
 {% include callout.html type="important" content="You will only need to modify the `_config.yml` if you wish to make major changes to the way your new guide repository makes use of the remote ELIXIR ToolKit theme. Instructions for how to do this, and what the different options are, can be [found here](https://elixir-belgium.github.io/elixir-toolkit-theme/configuring_theme). " %}
 
+{:start="6"}
 6. Add your name to [`CONTRIBUTORS.yml`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/_data/CONTRIBUTORS.yml)
 
 This ensures your name renders properly on each guide page that it has been added to. 
@@ -80,6 +85,7 @@ Firstname Lastname:
 
 Once a user is listed in this way in this file, a tile will be generated on the Contributors page.
 
+{:start="7"}
 7. If you added an affiliation above, update [`affiliations.yml`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/_data/affiliations.yml)
 
 If you are adding a new affiliation, also update `affiliations.yml`, which can also be found in the `/_data` directory. 

@@ -12,6 +12,7 @@ toc: false
 
 {% include callout.html type="important" content="Use [**this template repository**](https://github.com/AustralianBioCommons/guide-template) to create a new repository in your GitHub account or organisation." %}
 
+{:start="2"}
 2. Understand its structure
 
 The repository has the following directories and files:

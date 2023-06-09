@@ -23,7 +23,7 @@ The documentation for GitHub provides additional information on how to [**set up
 
 ## Improve your How-to Guide
 
-6. Testing functional content
+### Testing functional content
 
 As an example, some How-to Guides detail the use of the bioinformatics platform Galaxy and demonstrate its application to analysis of real world data. It is critical that the functional content included (tools, workflows, code) is tested by:
 
@@ -33,7 +33,7 @@ As an example, some How-to Guides detail the use of the bioinformatics platform 
 A good example is a bioinformatics workflow: this workflow should be tested to ensure it functions as expected. This makes it more likely that someone will be able to successfully reuse the part of the guide that refers to the workflow.
 
 
-7. Make sure that others can understand your How-to Guide
+### Make sure that others can understand your How-to Guide
  
 The How-to Guide you create will be more reusable if multiple people have worked through the content. They will either successfully complete the activities in the guide, or provide critical feedback that can be used to improve the How-to Guide.
 

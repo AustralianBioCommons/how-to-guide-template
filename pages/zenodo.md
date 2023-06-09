@@ -16,6 +16,7 @@ toc: false
 
 ## Adding the DOI to your guide
 
+{:start="3"}
 3. Add the DOI (or even a complete citation!) into your how-to-cite instructions on the `index.md` page
 4. Update the DOI field in the [`CITATION.cff` file](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/CITATION.cff) 
 
