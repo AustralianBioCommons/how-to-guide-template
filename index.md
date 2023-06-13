@@ -1,6 +1,5 @@
 ---
 title: How-to Guide for creating a How-to Guide
-contributors: [Johan Gustafsson]
 toc: false
 ---
 
@@ -23,6 +22,11 @@ The template described in these docs aims to:
 ## Please cite this guide as follows
 
 > [Citation information goes here]
+
+
+## Contributors
+
+{% include contributor-tiles-all.html %}
 
 
 ## Acknowledgements
