@@ -3,7 +3,6 @@ title: Adding new pages to your project
 type: guides
 contributors: [Johan Gustafsson]
 description: How to create and update new pages for your How-to Guide.
-affiliations: [Australian BioCommons]
 toc_depth: 2
 ---
 

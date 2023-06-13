@@ -1,7 +1,6 @@
 ---
 title: How-to Guide for creating a How-to Guide
 contributors: [Johan Gustafsson]
-affiliations: [Australian BioCommons]
 toc: false
 ---
 
@@ -19,6 +18,7 @@ The template described in these docs aims to:
 
 {% include callout.html type="note" content="the instructions below are for a simple guide that can accommodate a few pages only: if you require more complicated structures, please contact @supernord" %}
 
+{% include section-navigation-tiles.html type="quick_start" %}
 
 ## Please cite this guide as follows
 
@@ -36,6 +36,7 @@ This guide makes use of the [ELIXIR toolkit theme](https://github.com/ELIXIR-Bel
 Ideas have also been drawn from other websites using this theme including:
 - [Infectious Diseases Toolkit](https://www.infectious-diseases-toolkit.org/)
 - [RDMKit](https://rdmkit.elixir-europe.org/)
+- [WorkflowHub](https://about.workflowhub.eu/)
 
 
 ## References

@@ -2,31 +2,8 @@
 title: Testing your guides to improve content
 type: guides
 contributors: [Johan Gustafsson]
-description: 
-affiliations: [Australian BioCommons]
+description: How to deploy and further enrich the content of your guides.
 ---
-
-
-## Add links that import a workflow to Galaxy
-
-You can embed links into a How-to Guide that instruct a Galaxy instance to import a specific version of a workflow from a source like [Dockstore](https://dockstore.org/) or [WorkflowHub](https://workflowhub.eu/). The example use case is if you would like a user of your guide to be able to open a workflow by simply clicking a link.
-
-An example is included here for WorkflowHub:
-
-```
-https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=221&trs_version=3
-```
-
-Breaking the link down into its components:
-
-1. `https://usegalaxy.org.au/workflows/trs_import`: [Galaxy Australia](https://usegalaxy.org.au/), please initiate a workflow import using my account
-2. `?trs_server=workflowhub.eu`: use the [WorkflowHub TRS](https://about.workflowhub.eu/developer/trs/) server, and
-3. `&trs_id=221&trs_version=3`: import workflow ID `221`, version number `3`
-
-{% include callout.html type="important" content="A user needs to log in to Galaxy first for the workflow import to be successful." %}
-
-If you add these links, don't forget to also cite the workflow. Example for the workflow used above:
-> Price, G., & Farquharson, K. (2022). PacBio HiFi genome assembly using hifiasm v2.1. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3
 
 
 ## Deploy to GitHub pages
@@ -59,5 +36,25 @@ A good example is a bioinformatics workflow: this workflow should be tested to e
 The How-to Guide you create will be more reusable if multiple people have worked through the content. They will either successfully complete the activities in the guide, or provide critical feedback that can be used to improve the How-to Guide.
 
 
+### Add links that import a workflow to Galaxy
+
+You can embed links into a How-to Guide that instruct a Galaxy instance to import a specific version of a workflow from a source like [Dockstore](https://dockstore.org/) or [WorkflowHub](https://workflowhub.eu/). The example use case is if you would like a user of your guide to be able to open a workflow by simply clicking a link.
+
+An example is included here for WorkflowHub:
+
+```
+https://usegalaxy.org.au/workflows/trs_import?trs_server=workflowhub.eu&trs_id=221&trs_version=3
+```
+
+Breaking the link down into its components:
+
+1. `https://usegalaxy.org.au/workflows/trs_import`: [Galaxy Australia](https://usegalaxy.org.au/), please initiate a workflow import using my account
+2. `?trs_server=workflowhub.eu`: use the [WorkflowHub TRS](https://about.workflowhub.eu/developer/trs/) server, and
+3. `&trs_id=221&trs_version=3`: import workflow ID `221`, version number `3`
+
+{% include callout.html type="important" content="A user needs to log in to Galaxy first for the workflow import to be successful." %}
+
+If you add these links, don't forget to also cite the workflow. Example for the workflow used above:
+> Price, G., & Farquharson, K. (2022). PacBio HiFi genome assembly using hifiasm v2.1. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3
 
  

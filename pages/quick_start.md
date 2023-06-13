@@ -3,7 +3,6 @@ title: Quick start for creating a How-to Guide
 type: quick_start
 contributors: [Johan Gustafsson]
 description: An abbreviated high level guide for creating a new set of web pages that contain your How-to Guide documents.
-affiliations: [Australian BioCommons]
 toc: false
 ---
 
