@@ -36,29 +36,56 @@ type: guides
 {:start="5"}
 5. Each new page that is included needs to be added to the `main.yml` file so that it appears in the left hand navigation menu. 
 
-An example of this code is provided below for the current How-to Guide:
+Below is the `main.yml` from the template repository:
+```yaml
+subitems:
+  - title: Home
+    url: /index
+  - title: Example page
+    url: /example_page
+  - title: Contributors
+    url: /contributors
+```
+
+To create the guide you are currently viewing, this code was updated as follows:
 
 ```yaml
 subitems:
-  - title: About
-    url: /
+  - title: Quick start
+    url: /quick_start
   - title: 1. Create a new repository
     url: /create_new
   - title: 2. Update your landing page content
     url: /update_index
   - title: 3. Add new pages to your guide
     url: /add_new_pages
-  - title: 4. Update configuration files
-    url: /structure
-  - title: 5. Test and improve your guide content
+  - title: 4. Test & improve your guide content
     url: /improve_content
-  - title: 6. Make your guide citable
+  - title: 5. Make your guide citable
     url: /zenodo
-  - title: Optional extra features
+  - title: Adding optional features
     url: /extras
+  - title: About
+    url: /
+```
+
+Note a few things:
+- The landing page url can be either `/index` or `/`
+- You can specify the order and structure of the navigation bar in `main.yml`
+- You can also add a title element and a link: this is shown below, with the `title_url` set to the landing page `index.md` for the guide
+
+```yaml
+title: Navigation bar title
+title_url: /
+subitems:
+  - title: Home
+    url: /index
+  - title: Example page
+    url: /example_page
   - title: Contributors
     url: /contributors
 ```
+
 
 There are many other options for configuring your guide web page differently and adding more complicated page and navigation structures. For more information please visit the [ELIXIR Toolkit theme documentation](https://elixir-belgium.github.io/elixir-toolkit-theme/).
 

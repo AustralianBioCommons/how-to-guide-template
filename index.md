@@ -35,7 +35,7 @@ This work is supported by the [Australian BioCommons](https://www.biocommons.org
 
 This guide makes use of the [ELIXIR toolkit theme](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
-![](./assets/img/elixir-toolkit-theme_logo.svg)
+{% include image.html file="elixir-toolkit-theme_logo.svg" alt="Elixir Toolkit Theme logo" max-width="5em" %}
 
 Ideas have also been drawn from other websites using this theme including:
 - [Infectious Diseases Toolkit](https://www.infectious-diseases-toolkit.org/)
