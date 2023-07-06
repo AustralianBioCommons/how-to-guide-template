@@ -25,3 +25,22 @@ Marion Shadbolt:
     orcid: 0000-0001-7505-5418
     role:
     affiliation: Australian BioCommons / University of Melbourne
+
+Ziad Al Bkhetan:
+    git: ziadbkh
+    email: ziad@biocommons.org.au
+    orcid: 0000-0002-4032-5331
+    role: testing / review
+    affiliation: Australian BioCommons / University of Melbourne
+
+Valentine Murigneux:
+    git: vmurigneu
+    orcid: 0000-0002-1235-9462
+    role: review
+    affiliation: QCIF
+
+Sarah Williams:
+    git: swbioinf
+    orcid: 0000-0002-9026-0601
+    role: testing / review
+    affiliation: QCIF

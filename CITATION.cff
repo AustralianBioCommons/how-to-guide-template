@@ -1,13 +1,22 @@
-cff-version: 0.0.0
+cff-version: 1.0.0
 message: "Please cite as below."
 authors:
   - family-names: Gustafsson
     given-names: Johan
     orcid: https://orcid.org/0000-0002-2977-5032
+  - family-names: Al Bkhetan
+    given-names: Ziad
+    orcid: https://orcid.org/0000-0002-4032-5331
   - family-names: Shadbolt
     given-names: Marion
     orcid: https://orcid.org/0000-0001-7505-5418
+  - family-names: Murigneux
+    given-names: Valentine
+    orcid: https://orcid.org/0000-0002-1235-9462
+  - family-names: Williams
+    given-names: Sarah
+    orcid: https://orcid.org/0000-0002-9026-0601
 title: "How-to Guide for creating a How-to Guide"
-version: 0.0.0
+version: 1.0.0
 doi: [DOI goes here]
-date-released: YYYY-MM-DD
+date-released: 2023-MM-DD
