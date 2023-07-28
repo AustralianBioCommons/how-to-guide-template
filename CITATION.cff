@@ -16,6 +16,15 @@ authors:
   - family-names: Williams
     given-names: Sarah
     orcid: https://orcid.org/0000-0002-9026-0601
+  - family-names: Capon
+    given-names: Patrick
+    orcid: https://orcid.org/0000-0002-7396-5757
+  - family-names: Zaib Khan
+    given-names: Farah
+    orcid: https://orcid.org/0000-0002-6337-3037
+  - family-names: Nelson
+    given-names: Tiffanie
+    orcid: https://orcid.org/0000-0002-5341-312X
 title: "How-to Guide for creating a How-to Guide"
 version: 1.0.0
 doi: [DOI goes here]
