@@ -27,6 +27,6 @@ authors:
     orcid: https://orcid.org/0000-0002-5341-312X
 title: "How-to Guide for creating a How-to Guide"
 version: 1.0.0
-doi: https://doi.org/10.5281/zenodo.8210269
+doi: 10.5281/zenodo.8210269
 date-released: 2023-08-03
 repository-code: https://github.com/AustralianBioCommons/how-to-guide-template
