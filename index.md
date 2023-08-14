@@ -21,7 +21,7 @@ The template described in these docs aims to:
 
 ## Please cite this guide as follows
 
-> [Citation information goes here]
+> Gustafsson, J., Al Bkhetan, Z., Shadbolt, M., Murigneux, V., Williams, S., Capon, P., Khan, F. Z., & Nelson, T. (2023). How-to Guide for creating a How-to Guide (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.8210269
 
 
 ## Contributors
