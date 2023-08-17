@@ -15,7 +15,7 @@ The template described in these docs aims to:
 - Allow you to **easily deploy these guides** using GitHub pages and a remote theme provided by ELIXIR; and,
 - Allow linking to Zenodo and **creation of DOIs** for each release. You created the content, others should be able to cite it!
 
-{% include callout.html type="note" content="the instructions below are for a simple guide that can accommodate a few pages only: if you require more complicated structures, please contact @supernord" %}
+{% include callout.html type="note" content="the instructions below are for a simple guide that can accommodate a few pages only: if you require more complicated structures, please contact @supernord via GitHub" %}
 
 {% include section-navigation-tiles.html type="quick_start" %}
 
