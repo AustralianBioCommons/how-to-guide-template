@@ -7,7 +7,7 @@ toc: false
 ---
 
 
-The `index.md` page in your new repository will be the landing page for the How-to Guide.
+The [`index.md`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/index.md) page in your new repository will be the landing page for the How-to Guide.
 
 1. Add general information about the guide you are creating to the `About` section.
 2. Add citation instructions to the `Please cite this guide as follows` section.
