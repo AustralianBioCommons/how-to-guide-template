@@ -12,6 +12,7 @@ You are viewing a web page that describes How-to create new How-to Guides using 
 
 The template described in these docs aims to:
 - **Reduce the time you spend** creating guides by providing a standard structure to develop and maintain guidance material;
+- **Provide further guide templates** for common use cases of the How-to Guides concept;
 - Allow you to **easily deploy these guides** using GitHub pages and a remote theme provided by ELIXIR; and,
 - Allow linking to Zenodo and **creation of DOIs** for each release. You created the content, others should be able to cite it!
 

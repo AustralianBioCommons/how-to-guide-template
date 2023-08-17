@@ -11,7 +11,17 @@ subitems:
     url: /improve_content
   - title: 5. Make your guide citable
     url: /zenodo
+  - title: Different types of How-to Guides
+    url: /how_to_guide_types.md
   - title: Adding optional features
     url: /extras
+  - title: Template page examples
+    subitem:
+      - title: Standard example page
+        url: /example_page
+      - title: Workflow How-to Guide example page
+        url: /example_bioinformatics_workflow_page
+      - title: Workflow documentation example page
+        url: /example_workflow_documentation_page
   - title: About
     url: /
