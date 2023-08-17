@@ -50,4 +50,4 @@ Ideas have also been drawn from other websites using this theme including:
 
 > Druskat, Stephan, Spaaks, Jurriaan H., Chue Hong, Neil, Haines, Robert, Baker, James, Bliven, Spencer, Willighagen, Egon, Pérez-Suárez, David, & Konovalov, Alexander. (2021). Citation File Format (1.2.0). Zenodo. [https://doi.org/10.5281/zenodo.5171937](https://doi.org/10.5281/zenodo.5171937)
  
- 
+> Gustafsson, J., Davis, B., de la Pierre, M., Stott, A., Beecroft, S., Downton, M., Edwards, R., Chew, T., Samaha, G., & Al Bkhetan, Z. (2023). Australian BioCommons Documentation Guidelines (Version 1.5.0) [Computer software] 
