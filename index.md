@@ -6,7 +6,7 @@ toc: false
 
 ## About
 
-You are viewing a web page that describes How-to create new How-to Guides using a GitHub repository template. 
+This web page describes *How-to* create new How-to Guide websites using a GitHub repository template. 
 
 **What are How-to Guides?** They are step-by-step guides that support the reuse of bioinformatics tools, workflows and data on Australian compute systems and infrastructure.
 
@@ -19,6 +19,11 @@ The template described in these docs aims to:
 {% include callout.html type="note" content="the instructions below are for a simple guide that can accommodate a few pages only: if you require more complicated structures, please contact @supernord via GitHub" %}
 
 {% include section-navigation-tiles.html type="quick_start" %}
+
+## Example page templates for different How-to Guides
+
+{% include section-navigation-tiles.html type="template" %}
+
 
 ## Please cite this guide as follows
 

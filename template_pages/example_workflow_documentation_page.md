@@ -6,24 +6,6 @@ description: Add a plain text description here.
 affiliations: 
 ---
 
-  - [Description](#description)
-  - [Diagram](#diagram)
-  - [User guide](#user-guide)
-      - [Quick start guide](#quick-start-guide)
-      - [Required (minimum)
-        inputs/parameters](#required-minimum-inputsparameters)
-      - [Infrastructure usage and
-        recommendations](#infrastructure-usage-and-recommendations)
-      - [Compute resource usage across tested
-        infrastructures](#compute-resource-usage-across-tested-infrastructures)
-      - [Benchmarking](#benchmarking)
-  - [Additional notes](#additional-notes)
-  - [Help/FAQ/Troubleshooting](#helpfaqtroubleshooting)
-  - [3rd party Tutorials](#3rd-party-tutorials)
-  - [Licence(s)](#licences)
-  - [Acknowledgements/citations/credits](#acknowledgementscitationscredits)
-
----
 
 ## Description
 
