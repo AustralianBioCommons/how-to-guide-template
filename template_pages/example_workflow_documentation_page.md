@@ -1,10 +1,12 @@
 ---
-title: [Add your workflow name here]
+title: Workflow documentation
 type: template
 contributors: 
-description: Add a plain text description here.
+description: Template example for a workflow documentation How-to Guide that describes a specific bioinformatics workflow (usage guide, inputs, outputs, parameters etc.).
 affiliations: 
 ---
+
+{% include callout.html type="important" content="This is a template example for a workflow documentation How-to Guide that describes a specific bioinformatics workflow (usage guide, inputs, outputs, parameters etc.). If you use this template, don't forget to update the `title` and `description`. The source for this material is [available here](https://github.com/AustralianBioCommons/doc_guidelines)." %}
 
 
 ## Description

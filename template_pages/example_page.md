@@ -1,11 +1,12 @@
 ---
-title: [Individual How-to Guide page]
+title: Individual How-to Guide page
 type: template
 contributors: 
-description: Add a plain text description here.
+description: A basic template example for a How-to Guide page.
 affiliations: 
 ---
 
+{% include callout.html type="important" content="This is a basic template example for a How-to Guide page. If you use this template, don't forget to update the `title` and `description`." %}
 
 ## heading 1
 

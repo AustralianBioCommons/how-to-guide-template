@@ -1,10 +1,13 @@
 ---
-title: [Add the name for your workflow How-to Guide here]
+title: Workflow How-to Guide
 type: template
 contributors: 
-description: Add a plain text description here.
+description: Template example for a workflow How-to Guide that describes step-by-step how to reuse a particular bioinformatics workflow.
 affiliations: 
 ---
+
+{% include callout.html type="important" content="This is a template example for a workflow How-to Guide that describes step-by-step how to reuse a particular bioinformatics workflow. If you use this template, don't forget to update the `title` and `description`. The source for this material is [available here](https://github.com/AustralianBioCommons/guide-template/blob/main/pages/example_bioinformatics_workflow_page.md)." %}
+
 
 > The headings and instructions here are based on the first set of How-to Guides created, which can be viewed here: https://australianbiocommons.github.io/how-to-guides/
 
