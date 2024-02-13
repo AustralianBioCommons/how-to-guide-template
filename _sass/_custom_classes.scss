@@ -3,13 +3,13 @@
 //Example for highlighting the active page in the navigation:
 /*-----Top navigation-----*/
 
-/*.navbar-nav .nav-item > a {
+.navbar-nav .nav-item > a {
     &.active {
         color: $white;
         background-color: $primary;
         border-radius: $border-radius;
     }
-}*/
+}
 
 /* see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme*/
 
@@ -20,6 +20,12 @@ header .navbar {
             img {
                 max-height: 80px;
             }
+    }
+}
+
+.nav-link {
+    .background {
+        background-color: $primary;
     }
 }
 
