@@ -18,8 +18,6 @@ The template described in these docs aims to:
 
 {% include callout.html type="note" content="the instructions below are for a simple guide that can accommodate a few pages only: if you require more complicated structures, please contact @supernord via GitHub" %}
 
-{% include section-navigation-tiles.html type="quick_start" %}
-
 
 ## Please cite this guide as follows
 
