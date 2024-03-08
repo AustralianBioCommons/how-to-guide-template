@@ -1,7 +1,6 @@
 ---
 title: Updating your How-to Guide landing page
 type: guides
-contributors: [Johan Gustafsson]
 description: How to update the content for your How-to Guide landing page.
 toc: false
 ---

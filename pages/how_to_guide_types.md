@@ -1,7 +1,6 @@
 ---
 title: Creating different types of How-to Guides
 type: guides
-contributors: [Johan Gustafsson]
 description: Examples of how the How-to Guides template has been reused for different applications.
 ---
 

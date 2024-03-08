@@ -1,7 +1,6 @@
 ---
 title: Creating a new How-to Guide repository
 type: guides
-contributors: [Johan Gustafsson]
 description: How to create and begin updating a repository for your new How-to Guide, based on a template repository.
 toc: false
 ---

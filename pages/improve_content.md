@@ -1,7 +1,6 @@
 ---
 title: Testing your guides to improve content
 type: guides
-contributors: [Johan Gustafsson]
 description: How to deploy and further enrich the content of your guides.
 ---
 
