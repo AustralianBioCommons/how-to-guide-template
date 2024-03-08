@@ -1,7 +1,6 @@
 ---
 title: Quick start for creating a How-to Guide
 type: guides
-contributors: [Johan Gustafsson]
 description: An abbreviated high level guide for creating a new set of web pages that contain your How-to Guide documents.
 toc: false
 ---
