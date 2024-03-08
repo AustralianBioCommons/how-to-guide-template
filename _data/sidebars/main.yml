@@ -15,13 +15,5 @@ subitems:
     url: /how_to_guide_types
   - title: Adding optional features
     url: /extras
-  - title: Template page examples
-    subitems:
-      - title: Standard example page
-        url: /example_page
-      - title: Workflow How-to Guide example page
-        url: /example_bioinformatics_workflow_page
-      - title: Workflow documentation example page
-        url: /example_workflow_documentation_page
-  - title: About
-    url: /
+  - title: Usage examples
+    url: /example_page

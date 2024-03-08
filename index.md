@@ -20,10 +20,6 @@ The template described in these docs aims to:
 
 {% include section-navigation-tiles.html type="quick_start" %}
 
-## Example page templates for different How-to Guides
-
-{% include section-navigation-tiles.html type="template" %}
-
 
 ## Please cite this guide as follows
 
