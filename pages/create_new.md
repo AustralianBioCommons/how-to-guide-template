@@ -7,7 +7,7 @@ toc: false
 ---
 
 
-1. Fork [**this template**](https://github.com/AustralianBioCommons/guide-template) to create a new repository in your GitHub account or organisation.
+1. Fork [**the template repository**](https://github.com/AustralianBioCommons/guide-template) to create a new repository in your GitHub account or organisation.
 
 {:start="2"}
 2. Understand the repository structure
