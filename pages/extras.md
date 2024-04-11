@@ -29,26 +29,13 @@ To add tiles for guide pages that you have created, add the following code to th
 - `except="index.md"` : removes specific tiles
 
 
-### Example - only pages of type `"quick_start"`
+### Example - only pages of type `"type_value"`
 
 {% raw %}
 ```
 {% include section-navigation-tiles.html type="quick_start" %}
 ```
 {% endraw %}
-
-{% include section-navigation-tiles.html type="quick_start" %}
-
-
-### Example - only pages of type `"template"`
-
-{% raw %}
-```
-{% include section-navigation-tiles.html type="template" %}
-```
-{% endraw %}
-
-{% include section-navigation-tiles.html type="template" %}
 
 
 ### Example - only pages of type `"guides"`
