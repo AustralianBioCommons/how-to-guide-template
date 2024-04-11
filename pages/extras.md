@@ -15,14 +15,15 @@ See the [ELIXIR Toolkit theme](https://elixir-belgium.github.io/elixir-toolkit-t
 To add tiles for guide pages that you have created, add the following code to the page you would like the tiles to appear on:
 
 {% raw %}
-
+```
 {% include section-navigation-tiles.html type="guides" %}
-
+```
 {% endraw %}
 
 {% include section-navigation-tiles.html type="guides" %}
 
-You can also add the following:
+### You can also add the following:
+
 - `type="type_value"` : only shows tiles for pages that have the indicated `type_value` in the page header
 - `search=true` : enables searching - useful for large tile sets
 - `except="index.md"` : removes specific tiles
@@ -42,9 +43,9 @@ You can also add the following:
 ### Example - only pages of type `"template"`
 
 {% raw %}
-
+```
 {% include section-navigation-tiles.html type="template" %}
-
+```
 {% endraw %}
 
 {% include section-navigation-tiles.html type="template" %}
@@ -53,9 +54,9 @@ You can also add the following:
 ### Example - only pages of type `"guides"`
 
 {% raw %}
-
+```
 {% include section-navigation-tiles.html type="guides" %}
-
+```
 {% endraw %}
 
 {% include section-navigation-tiles.html type="guides" %}
