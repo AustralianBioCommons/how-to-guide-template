@@ -17,7 +17,7 @@ toc: false
 {:start="3"}
 3. Update the DOI field in the `CITATION.cff` file: [example here](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/CITATION.cff) 
 
-{% include callout.html type="note" content="Updating your `CITATION.cff` file allows GitHub to generate a citation for your repository automatically, which can be accessed in the repository "About" menu." %} 
+{% include callout.html type="note" content="Updating your `CITATION.cff` file allows GitHub to generate a citation for your repository automatically, which can be accessed in the repository 'About' menu." %}
 
 {:start="4"}
 4. Add the DOI (or even a complete citation!) into your how-to cite instructions on the `index.md` page. See example below:
