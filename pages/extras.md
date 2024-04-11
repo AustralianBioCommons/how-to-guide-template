@@ -31,7 +31,7 @@ You can also add the following:
 ### Example - only pages of type `"quick_start"`
 
 {% raw %}
-```commandline
+```
 {% include section-navigation-tiles.html type="quick_start" %}
 ```
 {% endraw %}
