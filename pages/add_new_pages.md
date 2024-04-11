@@ -25,17 +25,16 @@ affiliations: [Australian BioCommons]
 
 {:start="4"}
 4. You can also add another optional line for `type`. 
-
-Example code is provided below. This can be used to identify subsets of guide pages: for example if you want to include navigation tiles for only specific pages (see [Optional extra features](extras.md)). This text will also appear at the top of the page in the final website: [an example is available here](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages). 
+   - Example code is provided below. 
+   - This can be used to identify subsets of guide pages: for example if you want to include navigation tiles for only specific pages (see [Optional extra features](extras.md)). 
+   - This text will also appear at the top of the page in the final website: [an example is available here](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages). 
 
 ```yaml
 type: guides
 ```
 
 {:start="5"}
-5. Each new page that is included needs to be added to the `main.yml` file so that it appears in the left hand navigation menu. 
-
-Below is the `main.yml` from the template repository:
+5. Each new page that is included needs to be added to the `main.yml` file so that it appears in the left hand navigation menu. Below is the `main.yml` from the template repository:
 ```yaml
 subitems:
   - title: Home
@@ -92,10 +91,8 @@ There are many other options for configuring your guide web page differently and
 
 {:start="6"}
 6. Add your name to [`CONTRIBUTORS.yml`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/_data/CONTRIBUTORS.yml)
-
-This ensures your name renders properly on each guide page that it has been added to. 
-
-The file can be found in the `/_data` directory.
+   - This ensures your name renders properly on each guide page that it has been added to. 
+   - The file can be found in the `/_data` directory.
 
 The text you add should look like this:
 
@@ -113,7 +110,7 @@ Once a user is listed in this way in this file, a tile will be generated on the 
 {:start="7"}
 7. If you added an affiliation above, update [`affiliations.yml`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/_data/affiliations.yml)
 
-If you are adding a new affiliation, also update `affiliations.yml`, which can also be found in the `/_data` directory. 
+8. If you are adding a new affiliation, also update `affiliations.yml`, which can also be found in the `/_data` directory. 
    - The affiliations in the header content above require this information to be available. 
    - A new example affiliation is available below: note that it also includes an image / logo which should be added to the `/images` directory.
 

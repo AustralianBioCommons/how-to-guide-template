@@ -15,8 +15,20 @@ toc: false
 ## Adding the DOI to your guide
 
 {:start="3"}
-3. Add the DOI (or even a complete citation!) into your how-to-cite instructions on the `index.md` page
-4. Update the DOI field in the [`CITATION.cff` file](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/CITATION.cff) 
+3. Update the DOI field in the `CITATION.cff` file: [example here](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/CITATION.cff) 
+
+{% include callout.html type="tip" content="Updating your `CITATION.cff` file allows GitHub to generate a citation for your repository automatically, which can be accessed in the repository "About" menu." %} 
+
+{:start="4"}
+4. Add the DOI (or even a complete citation!) into your how-to cite instructions on the `index.md` page. See example below:
+
+```
+Gustafsson, J., Al Bkhetan, Z., Shadbolt, M., Murigneux, V., Williams, S., 
+Capon, P., Khan, F. Z., & Nelson, T. (2023). How-to Guide for creating a 
+How-to Guide (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.8210269
+```
+
+
 
 {% include callout.html type="important" content="A blank `CITATION.cff` example is provided below. Don't forget to fill out the other metadata in this file!" %} 
 
