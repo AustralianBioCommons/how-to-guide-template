@@ -3,13 +3,17 @@ subitems:
     url: /
   - title: 1. Create a new repository
     url: /create_new
-  - title: 2. Update your landing page content
-    url: /update_index
-  - title: 3. Add new pages to your guide
+  - title: 2. A single or multi-page guide?
+    url: /select_type
+  - title: 3. Add a single new page to your guide
+    url: /add_single_page
+  - title: 4. Adding multiple new pages to your guide
     url: /add_new_pages
-  - title: 4. Test & improve your guide content
+  - title: 5. Update your About page content
+    url: /update_about
+  - title: 6. Test & improve your guide content
     url: /improve_content
-  - title: 5. Make your guide citable
+  - title: 7. Make your guide citable
     url: /zenodo
   - title: Different types of How-to Guides
     url: /how_to_guide_types
