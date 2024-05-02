@@ -1,6 +1,6 @@
 ---
-title: Adding new pages to your project
-type: guides
+title: A multi-page How-to Guide
+type: option
 description: How to create and update new pages for your How-to Guide.
 toc_depth: 2
 ---

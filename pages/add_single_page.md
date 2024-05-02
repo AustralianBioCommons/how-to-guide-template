@@ -1,7 +1,7 @@
 ---
-title: Adding a single new guide page to your project
-type: guides
-description: How to create and update a single new guide page for your How-to Guide.
+title: A single page How-to Guide
+type: option
+description: How to create and update a How-to Guide with a single main content page.
 toc_depth: 2
 ---
 
