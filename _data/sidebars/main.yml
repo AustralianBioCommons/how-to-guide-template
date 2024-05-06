@@ -15,8 +15,6 @@ subitems:
     url: /improve_content
   - title: 7. Make your guide citable
     url: /zenodo
-  - title: Different types of How-to Guides
-    url: /how_to_guide_types
   - title: Adding optional features
     url: /extras
   - title: Usage examples
