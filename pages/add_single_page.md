@@ -16,6 +16,29 @@ toc_depth: 2
 1. Select the markdown structure you would like to add to your How-to Guide
 2. Open `index.md`
 3. Copy the selected content into `index.md`
+4. Update the yaml header content. An example of this is included below. 
+   - You need to add a `title`, 
+   - You may also add `contributors`, a `description` and `affiliations`
+
+```yaml
+---
+title: [How-to Guide template]
+contributors: [Johan Gustafsson]
+description: Add a plain text description here.
+affiliations: [Australian BioCommons]
+---   
+```
+
+{:start="4"}
+4. If you have added contributors or affiliations you need to update [additional files](update_other_files)
+5. You can also add another optional line for `type`. 
+   - Example code is provided below. 
+   - This can be used to identify subsets of guide pages: for example if you want to include navigation tiles for only specific pages (see [Optional extra features](extras.md)). 
+   - This text will also appear at the top of the page in the final website: [an example is available here](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages). 
+
+```yaml
+type: guides
+```
 4. Proceed to the next step: [adding content to the About page](update_about)
 
 {% include callout.html type="tip" content="You can also build custom markdown down content using tools like [readme.so](https://readme.so/)." %}
