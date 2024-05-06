@@ -26,8 +26,6 @@ The template described in these docs aims to:
 - **Provide further guide templates** for common use cases of the How-to Guides concept;
 - Allow you to **easily deploy these guides** using GitHub pages and a remote theme provided by ELIXIR; and,
 - Allow linking to Zenodo and **creation of DOIs** for each release. You created the content, others should be able to cite it!
-
-{% include callout.html type="note" content="the instructions below are for a simple guide that can accommodate a few pages only: if you require more complicated structures, please contact @supernord via GitHub" %}
 ```
 
 The second part of the `index.md` provides a quick start description, with links to the relevant pages:
@@ -39,9 +37,10 @@ These are the steps required to make use of the contents of the How-to Guide tem
 2. [A single or multi-page guide?](select_type)
 3. [Add a single new page to your guide](add_single_page)
 4. Optional: [Adding multiple new pages to your guide](add_new_pages)
-5. [Update your About page content](update_about)
-6. [Test, review and improve your guide content](improve_content)
-7. [When ready create a GitHub release and link to Zenodo to create a DOI](zenodo)
+5. [Update other required files](update_other_files)
+6. [Update your About page content](update_about)
+7. [Test, review and improve your guide content](improve_content)
+8. [When ready create a GitHub release and link to Zenodo to create a DOI](zenodo)
 
 Then share the How-to Guide!
 ```
@@ -159,15 +158,15 @@ subitems:
     url: /create_new
   - title: 2. A single or multi-page guide?
     url: /select_type
-  - title: 3. Add a single new page to your guide
+  - title: 3. A single page guide
     url: /add_single_page
-  - title: 4. Adding multiple new pages to your guide
+  - title: 4. A multi-page guide
     url: /add_new_pages
   - title: 5. Update other required files
     url: /update_other_files
-  - title: 6. Update your About page content
+  - title: 6. Update About page content
     url: /update_about
-  - title: 7. Test & improve your guide content
+  - title: 7. Test & improve guide content
     url: /improve_content
   - title: 8. Make your guide citable
     url: /zenodo

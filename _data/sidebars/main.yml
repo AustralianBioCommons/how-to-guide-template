@@ -5,15 +5,15 @@ subitems:
     url: /create_new
   - title: 2. A single or multi-page guide?
     url: /select_type
-  - title: 3. Add a single new page to your guide
+  - title: 3. A single page guide
     url: /add_single_page
-  - title: 4. Adding multiple new pages to your guide
+  - title: 4. A multi-page guide
     url: /add_new_pages
   - title: 5. Update other required files
     url: /update_other_files
-  - title: 6. Update your About page content
+  - title: 6. Update About page content
     url: /update_about
-  - title: 7. Test & improve your guide content
+  - title: 7. Test & improve guide content
     url: /improve_content
   - title: 8. Make your guide citable
     url: /zenodo

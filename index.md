@@ -24,8 +24,9 @@ These are the steps required to make use of the contents of the How-to Guide tem
 2. [A single or multi-page guide?](select_type)
 3. [Add a single new page to your guide](add_single_page)
 4. Optional: [Adding multiple new pages to your guide](add_new_pages)
-5. [Update your About page content](update_about)
-6. [Test, review and improve your guide content](improve_content)
-7. [When ready create a GitHub release and link to Zenodo to create a DOI](zenodo)
+5. [Update other required files](update_other_files)
+6. [Update your About page content](update_about)
+7. [Test, review and improve your guide content](improve_content)
+8. [When ready create a GitHub release and link to Zenodo to create a DOI](zenodo)
 
 Then share the How-to Guide!
