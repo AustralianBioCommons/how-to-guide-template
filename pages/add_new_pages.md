@@ -8,7 +8,8 @@ toc_depth: 2
 
 ## Quick description of the process
 
-1. Create a new markdown file in the `/pages` directory
+1. [Update the `index.md` file](#updating-the-main-how-to-guide-page-indexmd)
+2. [Create a new markdown file in the `/pages` directory](#for-each-new-page)
 2. Give this file a unique name (e.g. `new-page-name.md`)
 3. Add your content to this file
 4. Option: use an existing template for the markdown content to make your life easier: see [page templates section](#page-templates)
@@ -71,7 +72,8 @@ To use any of these examples, simply copy the markdown content from the relevant
 
 {% include callout.html type="tip" content="You can also build custom markdown down content using tools like [readme.so](https://readme.so/)." %}
 
-### For each new page
+
+### Add new page
 
 1. Copy contents of `example_page.md` into a new file and rename it
 2. Add these files to the `/pages` directory to keep your work organised
@@ -96,6 +98,9 @@ affiliations: [Australian BioCommons]
 type: guides
 ```
 
+
+### Update navigation bar
+
 {:start="5"}
 5. Each new page that is included needs to be added to the `main.yml` file so that it appears in the left hand navigation menu. Below is the `main.yml` from the template repository:
 ```yaml
@@ -113,21 +118,25 @@ To create the guide you are currently viewing, this code was updated as follows:
 ```yaml
 subitems:
   - title: Quick start
-    url: /quick_start
+    url: /
   - title: 1. Create a new repository
     url: /create_new
-  - title: 2. Update your landing page content
-    url: /update_index
-  - title: 3. Add new pages to your guide
+  - title: 2. A single or multi-page guide?
+    url: /select_type
+  - title: 3. Add a single new page to your guide
+    url: /add_single_page
+  - title: 4. Adding multiple new pages to your guide
     url: /add_new_pages
-  - title: 4. Test & improve your guide content
+  - title: 5. Update your About page content
+    url: /update_about
+  - title: 6. Test & improve your guide content
     url: /improve_content
-  - title: 5. Make your guide citable
+  - title: 7. Make your guide citable
     url: /zenodo
   - title: Adding optional features
     url: /extras
-  - title: About
-    url: /
+  - title: Usage examples
+    url: /examples
 ```
 
 Note a few things:

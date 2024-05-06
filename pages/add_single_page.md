@@ -8,12 +8,10 @@ toc_depth: 2
 
 ## What needs to be updated for a single page guide?
 
-**A single page How-to Guide only requires the addition of guide content to 1 file in the repository template.**
-
-- All of your How-to Guide content (i.e. the information or guidance you would like to share) should be added to [index.md](https://github.com/AustralianBioCommons/guide-template/blob/132851cbc0bb112cafbaa623487e4524af5dee36/index.md), and 
+**For a single page How-to Guide all of your content (i.e. the information or guidance you would like to share) should be added to [index.md](https://github.com/AustralianBioCommons/guide-template/blob/132851cbc0bb112cafbaa623487e4524af5dee36/index.md).**
 
 
-## Updating the contents of the main How-to Guide page: index.md
+## Updating the main How-to Guide page: index.md
 
 1. Select the markdown structure you would like to add to your How-to Guide
 2. Open `index.md`
