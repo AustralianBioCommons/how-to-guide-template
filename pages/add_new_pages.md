@@ -49,12 +49,13 @@ Then share the How-to Guide!
 
 ## Add new page
 
-
-### Add new page
-
-1. Copy contents of `example_page.md` into a new file and rename it
-2. Add these files to the `/pages` directory to keep your work organised
-3. Update the header content. An example of this is included below. You need to add a `title`, `contributors`, `description` and `affiliations`
+1. Create a new markdown file in the `/pages` directory
+2. Make sure you give this file a unique name (e.g. `new-page-name.md`)
+3. Add content to this file 
+4. Option: use an existing template for the markdown content to make your life easier: see [page templates section](#page-templates)
+5. Update the yaml header content. An example of this is included below. 
+   - You need to add a `title`, 
+   - You may also add `contributors`, a `description`, `affiliations`, and `type`
 
 ```yaml
 ---
@@ -62,24 +63,82 @@ title: [How-to Guide template]
 contributors: [Johan Gustafsson]
 description: Add a plain text description here.
 affiliations: [Australian BioCommons]
+type: [guide_type]
 ---   
 ```
 
-{:start="4"}
-4. You can also add another optional line for `type`. 
-   - Example code is provided below. 
-   - This can be used to identify subsets of guide pages: for example if you want to include navigation tiles for only specific pages (see [Optional extra features](extras.md)). 
-   - This text will also appear at the top of the page in the final website: [an example is available here](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages). 
-
-```yaml
-type: guides
-```
-
-
-### Update navigation bar
-
 {:start="5"}
-5. Each new page that is included needs to be added to the `main.yml` file so that it appears in the left hand navigation menu. Below is the `main.yml` from the template repository:
+5. If you have added contributors or affiliations you need to update [additional files](update_other_files)
+6. You can also add an optional line for `type`. 
+   - This can be used to identify subsets of guide pages: for example if you want to include navigation tiles for only specific pages (see [Optional extra features](extras.md)).
+   - This text will also appear at the top of the page in the final website: [an example is available here](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages).
+7. Repeat steps #1-6 to create as many pages as you need for your guide
+
+
+### Page templates
+
+The template repository already contains some example structures that can be used for the content of your guide pages, and include:
+
+- [Standard page that can be used as a starting point for any type of guide](https://australianbiocommons.github.io/guide-template/example_page)
+- [Suggested structure for a guide describing how to use a bioinformatics workflow](https://australianbiocommons.github.io/guide-template/example_bioinformatics_workflow_page)
+- [Suggested structure for documentation describing a workflow: based on Australian BioCommons documentation guidelines](https://australianbiocommons.github.io/guide-template/example_workflow_documentation_page)
+
+To use any of these examples, simply copy the markdown content from the relevant example file into the `index.md` file in your repository.
+
+{% include callout.html type="tip" content="You can also build custom markdown down content using tools like [readme.so](https://readme.so/)." %}
+
+
+## Adding images & message boxes
+
+Including images and message boxes can make your guide much easier to read and understand. Some examples of how to add these elements to your guide are included below.
+
+More details on images and message boxes can be found in the [documentation for the ELIXIR Toolkit theme](https://elixir-belgium.github.io/elixir-toolkit-theme/markdown_cheat_sheet#message-boxes).
+
+
+### Images
+
+The two options for including images are shown below, and an example of the second option is shown rendered on this page.
+
+{% raw %}
+```
+![](./images/main_logo.png)
+{% include image.html file="/main_logo.png" caption="Figure 1. The Australian BioCommons logo." alt="Australian BioCommons logo" max-width="10" %}
+```
+{% endraw %}
+
+{% include image.html file="/main_logo.png" caption="Figure 1. The Australian BioCommons logo." alt="Australian BioCommons logo" max-width="10" %}
+
+
+### Message boxes
+
+Four types of message boxes can also be included on your page: 
+- `note`
+- `tip`
+- `important`, and
+- `warning`
+
+These are incredibly useful for emphasising important points in your guide.
+An example is provided below, showing first the raw code you need to use and then an example warning message box.
+
+{% raw %}
+```
+{% include callout.html type="TYPE OF MESSAGE BOX TEXT GOES HERE" content="THE CONTENT FOR YOUR MESSAGE BOX GOES HERE" %}
+{% include callout.html type="warning" content="Definitely pay attention to this message box!" %}
+```
+{% endraw %}
+
+{% include callout.html type="warning" content="Definitely pay attention to this message box!" %}
+
+
+## Update navigation bars
+
+To include a left hand navigation panel, you need to:
+
+1. Remove `sidebar: false` from the yaml header, if present, and
+2. Add each new page to the `main.yml` file: this makes it appear in the left hand navigation menu. 
+
+Below is the `main.yml` from the template repository:
+
 ```yaml
 subitems:
   - title: Home
@@ -104,11 +163,13 @@ subitems:
     url: /add_single_page
   - title: 4. Adding multiple new pages to your guide
     url: /add_new_pages
-  - title: 5. Update your About page content
+  - title: 5. Update other required files
+    url: /update_other_files
+  - title: 6. Update your About page content
     url: /update_about
-  - title: 6. Test & improve your guide content
+  - title: 7. Test & improve your guide content
     url: /improve_content
-  - title: 7. Make your guide citable
+  - title: 8. Make your guide citable
     url: /zenodo
   - title: Adding optional features
     url: /extras
