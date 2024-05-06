@@ -37,6 +37,8 @@ To add tiles for guide pages that you have created, add the following code to th
 ```
 {% endraw %}
 
+{% include section-navigation-tiles.html type="quick_start" %}
+
 
 ### Example - only pages of type `"guides"`
 

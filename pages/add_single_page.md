@@ -1,6 +1,6 @@
 ---
 title: A single page How-to Guide
-type: option
+type: guides
 description: How to create and update a How-to Guide with a single main content page.
 toc_depth: 2
 ---
@@ -30,8 +30,7 @@ affiliations: [Australian BioCommons]
 ```
 
 {:start="5"}
-5. If you have added contributors or affiliations you need to update [additional files](update_other_files)
-6. Proceed to the next step: [update other required files](update_other_files)
+5. If you have added contributors or affiliations proceed to the next step and update [additional files](update_other_files)
 
 
 ## Page templates

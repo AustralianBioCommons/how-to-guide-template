@@ -10,5 +10,5 @@ description: Examples of how the How-to Guides template has been reused for diff
 - [Documentation and User Guide for MGIKIT](https://sagc-bioinformatics.github.io/mgikit/)
 - [Australian BioCommons How-to Hub & How-to Guides](https://australianbiocommons.github.io/how-to-hub/index)
 - [Australian BioCommons Leadership Share (ABLeS) documentation](https://australianbiocommons.github.io/ables/index)
-- [The Australian BioCommons Nextflow Tower pilot project](https://australianbiocommons.github.io/tower/)
+- [The Australian BioCommons Nextflow Tower pilot project](https://australianbiocommons.github.io/nextflow-seqera/)
 

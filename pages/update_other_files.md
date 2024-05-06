@@ -33,7 +33,7 @@ Firstname Lastname:
 
 ## Updating `affiliations.yml`
 
-Every time you add a new affiliation, you need to update `affiliations.yml`, which can also be found in the `/_data` directory. 
+Every time you add a new affiliation, you need to update `affiliations.yml`, which can be found in the `/_data` directory. 
 
 If you use affiliations in the yaml header content of any page, this will require this specific affiliation information to be available. 
 

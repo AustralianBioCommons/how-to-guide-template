@@ -1,6 +1,6 @@
 ---
 title: A multi-page How-to Guide
-type: option
+type: optional
 description: How to create and update new pages for your How-to Guide.
 toc_depth: 2
 ---
