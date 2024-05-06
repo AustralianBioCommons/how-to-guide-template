@@ -13,10 +13,10 @@ toc_depth: 2
 
 ## Updating the main How-to Guide page: index.md
 
-1. Select the markdown structure you would like to add to your How-to Guide
-2. Open `index.md`
-3. Copy the selected content into `index.md`
-4. Update the yaml header content. An example of this is included below. 
+1. Open `index.md`
+2. Add content to this file 
+3. Option: use an existing template for the markdown content to make your life easier: see [page templates section](#page-templates). Don't forget to include the yaml header content (see below)
+4. Update the yaml header content. 
    - You need to add a `title`, 
    - You may also add `contributors`, a `description` and `affiliations`
 
@@ -29,19 +29,12 @@ affiliations: [Australian BioCommons]
 ---   
 ```
 
-{:start="4"}
-4. If you have added contributors or affiliations you need to update [additional files](update_other_files)
-5. You can also add another optional line for `type`. 
-   - Example code is provided below. 
-   - This can be used to identify subsets of guide pages: for example if you want to include navigation tiles for only specific pages (see [Optional extra features](extras.md)). 
-   - This text will also appear at the top of the page in the final website: [an example is available here](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages). 
+{:start="5"}
+5. If you have added contributors or affiliations you need to update [additional files](update_other_files)
+6. Proceed to the next step: [update other required files](update_other_files)
 
-```yaml
-type: guides
-```
-4. Proceed to the next step: [adding content to the About page](update_about)
 
-{% include callout.html type="tip" content="You can also build custom markdown down content using tools like [readme.so](https://readme.so/)." %}
+## Page templates
 
 The template repository already contains some example structures that can be used for the content of `index.md`, and include:
 
@@ -51,5 +44,5 @@ The template repository already contains some example structures that can be use
 
 To use any of these examples, simply copy the markdown content from the relevant example file into the `index.md` file in your repository.
 
-
+{% include callout.html type="tip" content="You can also build custom markdown down content using tools like [readme.so](https://readme.so/)." %}
 
