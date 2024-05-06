@@ -6,9 +6,72 @@ toc_depth: 2
 ---
 
 
-Individual pages are created using the [`example_page.md`](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/pages/example_page.md): use the template to create as many pages as you need for your guide (i.e. copy and rename the `example_page.md` to create a new page).
+## Quick description of the process
 
-## For each new page
+1. Create a new markdown file in the `/pages` directory
+2. Give this file a unique name (e.g. `new-page-name.md`)
+3. Add your content to this file
+4. Option: use an existing template for the markdown content to make your life easier: see [page templates section](#page-templates)
+5. 
+6. Repeat steps #1-5 to create as many pages as you need for your guide
+
+
+## Detailed guide
+
+### Updating the main How-to Guide page: index.md
+
+For a single page guide, the `index.md` page will usually contain the entire How-to Guide. However, the role of this page changes for a multi-page guide.
+
+The most straightforward use for the `index.md` page in this case is as a `Quick start guide` or `Landing page` where a reader is provided with introductory content to help them understand and navigate the How-to Guide you have written. 
+
+The guide you are currently reading is a good example of this structure:
+
+The first part of the `index.md` provides some introductory information:
+
+```
+This guide describes *How-to* create new How-to Guide websites using a GitHub repository template. 
+
+**What are How-to Guides?** They are step-by-step guides that support the reuse of bioinformatics tools, workflows and data on Australian compute systems and infrastructure.
+
+The template described in these docs aims to:
+- **Reduce the time you spend** creating guides by providing a standard structure to develop and maintain guidance material;
+- **Provide further guide templates** for common use cases of the How-to Guides concept;
+- Allow you to **easily deploy these guides** using GitHub pages and a remote theme provided by ELIXIR; and,
+- Allow linking to Zenodo and **creation of DOIs** for each release. You created the content, others should be able to cite it!
+
+{% include callout.html type="note" content="the instructions below are for a simple guide that can accommodate a few pages only: if you require more complicated structures, please contact @supernord via GitHub" %}
+```
+
+The second part of the `index.md` provides a quick start description, with links to the relevant pages:
+
+```
+These are the steps required to make use of the contents of the How-to Guide template repository:
+
+1. [Fork the template repository](https://github.com/AustralianBioCommons/guide-template) - see [this page](create_new) for more details
+2. [A single or multi-page guide?](select_type)
+3. [Add a single new page to your guide](add_single_page)
+4. Optional: [Adding multiple new pages to your guide](add_new_pages)
+5. [Update your About page content](update_about)
+6. [Test, review and improve your guide content](improve_content)
+7. [When ready create a GitHub release and link to Zenodo to create a DOI](zenodo)
+
+Then share the How-to Guide!
+```
+
+
+### Page templates
+
+The template repository already contains some example structures that can be used for the content of your guide pages, and include:
+
+- [Standard page that can be used as a starting point for any type of guide](https://australianbiocommons.github.io/guide-template/example_page)
+- [Suggested structure for a guide describing how to use a bioinformatics workflow](https://australianbiocommons.github.io/guide-template/example_bioinformatics_workflow_page)
+- [Suggested structure for documentation describing a workflow: based on Australian BioCommons documentation guidelines](https://australianbiocommons.github.io/guide-template/example_workflow_documentation_page)
+
+To use any of these examples, simply copy the markdown content from the relevant example file into the `index.md` file in your repository.
+
+{% include callout.html type="tip" content="You can also build custom markdown down content using tools like [readme.so](https://readme.so/)." %}
+
+### For each new page
 
 1. Copy contents of `example_page.md` into a new file and rename it
 2. Add these files to the `/pages` directory to keep your work organised
@@ -125,14 +188,14 @@ Once a user is listed in this way in this file, a tile will be generated on the 
 {% include callout.html type="note" content="You can add logos to the `/images` directory." %}
 
 
-## Adding images & message boxes
+### Adding images & message boxes
 
 Including images and message boxes can make your guide much easier to read and understand. Some examples of how to add these elements to your guide are included below.
 
 More details on images and message boxes can be found in the [documentation for the ELIXIR Toolkit theme](https://elixir-belgium.github.io/elixir-toolkit-theme/markdown_cheat_sheet#message-boxes).
 
 
-### Images
+#### Images
 
 The two options for including images are shown below, and an example of the second option is shown rendered on this page.
 
@@ -146,7 +209,7 @@ The two options for including images are shown below, and an example of the seco
 {% include image.html file="/main_logo.png" caption="Figure 1. The Australian BioCommons logo." alt="Australian BioCommons logo" max-width="10" %}
 
 
-### Message boxes
+#### Message boxes
 
 Four types of message boxes can also be included on your page: 
 - `note`
