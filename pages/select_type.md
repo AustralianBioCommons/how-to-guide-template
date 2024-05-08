@@ -18,5 +18,6 @@ However, it is possible, and relatively straightforward, to modify the repositor
 
 ## What structure would you like your guide to have?
 
-{% include section-navigation-tiles.html col = "2" type="option"%}
+{% include section-navigation-tiles.html col = "1" type="option-1"%}
+{% include section-navigation-tiles.html col = "1" type="option-2"%}
 

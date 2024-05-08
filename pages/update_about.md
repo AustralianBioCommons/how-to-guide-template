@@ -20,4 +20,4 @@ toc: false
 ---
 ```
 
-The `toc: false` indicates that a table of contents will NOT be included.
+The `toc: false` indicates that a floating table of contents will NOT be included for the headings on the `About` page.

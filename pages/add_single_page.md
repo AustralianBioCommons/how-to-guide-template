@@ -1,6 +1,6 @@
 ---
 title: A single page How-to Guide
-type: guides
+type: option-1
 description: How to create and update a How-to Guide with a single main content page.
 toc_depth: 2
 ---
@@ -8,7 +8,7 @@ toc_depth: 2
 
 ## What needs to be updated for a single page guide?
 
-**For a single page How-to Guide all of your content (i.e. the information or guidance you would like to share) should be added to [index.md](https://github.com/AustralianBioCommons/guide-template/blob/132851cbc0bb112cafbaa623487e4524af5dee36/index.md).**
+For a single page How-to Guide all of your content (i.e. the information or guidance you would like to share) should be added to `index.md`.
 
 
 ## Updating the main How-to Guide page: index.md

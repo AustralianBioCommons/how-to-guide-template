@@ -1,6 +1,6 @@
 ---
 title: A multi-page How-to Guide
-type: optional
+type: option-2
 description: How to create and update new pages for your How-to Guide.
 toc_depth: 2
 ---
@@ -70,8 +70,9 @@ type: [guide_type]
 5. If you have added contributors or affiliations you need to update [additional files](update_other_files)
 6. You can also add an optional line for `type`. 
    - This can be used to identify subsets of guide pages: for example if you want to include navigation tiles for only specific pages (see [Optional extra features](extras.md)).
-   - This text will also appear at the top of the page in the final website: [an example is available here](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages).
+   - This text will also appear at the top of the page in the final website: for example, the `Option 2` that appears at the top of this page.
 7. Repeat steps #1-6 to create as many pages as you need for your guide
+8. Proceed to the next step and update [additional files](update_other_files)
 
 
 ### Page templates
@@ -178,6 +179,7 @@ subitems:
 
 Note a few things:
 - The landing page url can be either `/index` or `/`
+- Here, the `Quick start` page is the landing page / `index` for the How-to Guide
 - You can specify the order and structure of the navigation bar in `main.yml`
 - You can also add a title element and a link: this is shown below, with the `title_url` set to the landing page `index.md` for the guide
 
