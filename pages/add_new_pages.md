@@ -167,9 +167,11 @@ subitems:
     url: /update_other_files
   - title: 6. Update About page content
     url: /update_about
-  - title: 7. Test & improve guide content
+  - title: 7. Deploy to GitHub pages
+    url: /deploy
+  - title: 8. Test & improve guide content
     url: /improve_content
-  - title: 8. Make your guide citable
+  - title: 9. Make your guide citable
     url: /zenodo
   - title: Adding optional features
     url: /extras
