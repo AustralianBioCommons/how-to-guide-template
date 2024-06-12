@@ -7,7 +7,7 @@ description: How to update the content of other files required for your How-to G
 
 ## Updating `CONTRIBUTORS.yml`
 
-Every time you add a contributor, you need to update the `CONTRIBUTORS.yml` file, which can be found in the `/data` directory.
+Every time you add a contributor  to an individual page (step 4 in a [single page](https://australianbiocommons.github.io/how-to-guide-template/add_single_page) or [multi-page](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages) guide), you need to update the `CONTRIBUTORS.yml` file, which can be found in the `/data` directory.
 
 This ensures that the added contributor:
 
@@ -27,7 +27,7 @@ Firstname Lastname:
 
 ## Updating `affiliations.yml`
 
-Every time you add a new affiliation, you need to update `affiliations.yml`, which can be found in the `/_data` directory. 
+Every time you add a new affiliation  to an individual page (step 4 in a [single page](https://australianbiocommons.github.io/how-to-guide-template/add_single_page) or [multi-page](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages) guide), you need to update `affiliations.yml`, which can be found in the `/_data` directory. 
 
 If you use affiliations in the yaml header content of any page, this will require this specific affiliation information to be available. 
 
