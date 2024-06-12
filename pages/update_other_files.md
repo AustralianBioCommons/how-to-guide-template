@@ -1,13 +1,8 @@
 ---
-title: Update other required files
+title: Acknowledge contributions
 type: guides
 description: How to update the content of other files required for your How-to Guide.
 ---
-
-
-## Main configuration file: `_config.yml`
-
-{% include callout.html type="important" content="You will only need to modify the `_config.yml` if you wish to make major changes to the way your new guide repository makes use of the remote ELIXIR ToolKit theme. Instructions for how to do this, and what the different options are, can be [found here](https://elixir-belgium.github.io/elixir-toolkit-theme/configuring_theme). " %}
 
 
 ## Updating `CONTRIBUTORS.yml`
@@ -24,7 +19,6 @@ The text you add to `CONTRIBUTORS.yml should be in this format:
 ```yaml
 Firstname Lastname:
     git: github_username
-    email: users@email.com
     orcid: 0000-1234-5678-9012
     role: users_role
     affiliation: declared affiliation (not linked)

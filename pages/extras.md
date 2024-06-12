@@ -5,6 +5,11 @@ toc: true
 ---
 
 
+## Updating the main configuration file: `_config.yml`
+
+{% include callout.html type="important" content="You will only need to modify the `_config.yml` if you wish to make major changes to the way your new guide repository makes use of the remote ELIXIR ToolKit theme. Instructions for how to do this, and what the different options are, can be [found here](https://elixir-belgium.github.io/elixir-toolkit-theme/configuring_theme). " %}
+
+
 ## Navigation tiles
 
 See the [ELIXIR Toolkit theme](https://elixir-belgium.github.io/elixir-toolkit-theme/overview_tiles#section-tiles-with-information) for more information.
