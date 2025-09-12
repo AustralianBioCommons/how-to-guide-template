@@ -13,6 +13,10 @@
 
 /* see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme*/
 
+body {
+  font-size: 0.9rem;
+}
+
 header .navbar {
     .navbar-brand {
         font-size: 2.25rem;
@@ -33,10 +37,23 @@ img {
     @extend .img-fluid;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
 h2 {
+    font-size: 2.0rem;
     padding-top: 10px;
     display: block;
     border-top: 1px solid $table-border-color;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
 }
 
 /*-----Copied and adapted from https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_sass/_custom_classes.scss-----*/
