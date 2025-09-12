@@ -163,6 +163,26 @@ toc: false
 The `toc: false` indicates that a floating table of contents will NOT be included for the headings on the `About` page.
 
 
+## Deploy to GitHub pages
+
+To deploy your guide to GitHub pages:
+
+1. Go to your repository `Settings`;
+2. Select `Pages` from the left hand navigation menu;
+3. In the `Source` drop-down menu select `Deploy from branch`;
+4. In the `Branch` drop-down menu select `Main`; and,
+5. Click `Save`
+
+The documentation for GitHub provides additional information on how to [**set up GitHub pages for your repository**](https://pages.github.com/). Make sure to select the options `Project site` and `Start from scratch`: this will provide a straightforward walkthrough for setting up GitHub pages.
+
+
+## Deploy using GitHub actions
+
+GitHub actions can also be used to deploy content using the ELIXIR Toolkit Theme (ETT). This is also required for more advanced configurations (e.g. including citations that are linked to a Zotero library).
+
+Visit the documentation to [read more about GitHub actions](https://elixir-belgium.github.io/elixir-toolkit-theme/getting_started).
+
+
 ## Testing functional content
 
 As an example, some How-to Guides detail the use of the bioinformatics platform Galaxy and demonstrate its application to analysis of real world data. It is critical that the functional content included (tools, workflows, code) is tested by:
