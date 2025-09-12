@@ -1,6 +1,7 @@
 ---
 title: How to create a multi-page How-to Guide
 page_id: option-2
+sidebar: false
 toc_depth: 2
 ---
 
