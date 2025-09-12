@@ -1,7 +1,6 @@
 ---
-title: A multi-page How-to Guide
-type: option-2
-description: How to create and update new pages for your How-to Guide.
+title: How to create a multi-page How-to Guide
+page_id: option-2
 toc_depth: 2
 ---
 
