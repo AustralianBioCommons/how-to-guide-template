@@ -17,23 +17,9 @@ The template described in these docs aims to:
 {% include callout.html type="note" content="the instructions below are for a simple guide that can accommodate a few pages only: if you require more complicated structures, please contact @supernord via GitHub" %}
 
 
-These are the steps required to make use of the contents of the How-to Guide template repository:
-
-2. [A single or multi-page guide?](select_type)
-3. [Add a single new page to your guide](add_single_page)
-4. Optional: [Adding multiple new pages to your guide](add_new_pages)
-5. [Acknowledge contributions](update_other_files)
-6. [Update your About page content](update_about)
-7. [Deploy to GitHub pages](deploy)
-8. [Test, review and improve your guide content](improve_content)
-9. [When ready create a GitHub release and link to Zenodo to create a DOI](zenodo)
-
-Then share the How-to Guide!
-
-
 ## 1. Fork the template repository
 
-1. Fork [**the template repository available at this link**](https://github.com/AustralianBioCommons/guide-template) to create a new repository in your GitHub account or organisation.
+Fork [**the template repository available at this link**](https://github.com/AustralianBioCommons/guide-template) to create a new repository in your GitHub account or organisation.
 
 
 ## 2. Understand the repository structure
@@ -107,7 +93,7 @@ To use any of these examples, simply copy the markdown content from the relevant
 {% include callout.html type="tip" content="You can also build custom markdown down content using tools like [readme.so](https://readme.so/)." %}
 
 
-## Updating `CONTRIBUTORS.yml`
+## 6. Updating `CONTRIBUTORS.yml`
 
 Every time you add a contributor  to an individual page (step 4 in a [single page](https://australianbiocommons.github.io/how-to-guide-template/add_single_page) or [multi-page](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages) guide), you need to update the `CONTRIBUTORS.yml` file, which can be found in the `/data` directory.
 
@@ -127,7 +113,7 @@ Firstname Lastname:
 ```
 
 
-## Updating `affiliations.yml`
+## 7. Updating `affiliations.yml`
 
 Every time you add a new affiliation  to an individual page (step 4 in a [single page](https://australianbiocommons.github.io/how-to-guide-template/add_single_page) or [multi-page](https://australianbiocommons.github.io/how-to-guide-template/add_new_pages) guide), you need to update `affiliations.yml`, which can be found in the `/_data` directory. 
 
@@ -163,7 +149,7 @@ toc: false
 The `toc: false` indicates that a floating table of contents will NOT be included for the headings on the `About` page.
 
 
-## Deploy to GitHub pages
+## 8. Deploy to GitHub pages
 
 To deploy your guide to GitHub pages:
 
@@ -176,14 +162,14 @@ To deploy your guide to GitHub pages:
 The documentation for GitHub provides additional information on how to [**set up GitHub pages for your repository**](https://pages.github.com/). Make sure to select the options `Project site` and `Start from scratch`: this will provide a straightforward walkthrough for setting up GitHub pages.
 
 
-## Deploy using GitHub actions
+### Deploy using GitHub actions
 
 GitHub actions can also be used to deploy content using the ELIXIR Toolkit Theme (ETT). This is also required for more advanced configurations (e.g. including citations that are linked to a Zotero library).
 
 Visit the documentation to [read more about GitHub actions](https://elixir-belgium.github.io/elixir-toolkit-theme/getting_started).
 
 
-## Testing functional content
+## 9. Testing functional content
 
 As an example, some How-to Guides detail the use of the bioinformatics platform Galaxy and demonstrate its application to analysis of real world data. It is critical that the functional content included (tools, workflows, code) is tested by:
 
@@ -193,17 +179,17 @@ As an example, some How-to Guides detail the use of the bioinformatics platform 
 A good example is a bioinformatics workflow: this workflow should be tested to ensure it functions as expected. This makes it more likely that someone will be able to successfully reuse the part of the guide that refers to the workflow.
 
 
-## Make sure that others can understand your How-to Guide
+### Make sure that others can understand your How-to Guide
  
 The How-to Guide you create will be more reusable if multiple people have worked through the content. They will either successfully complete the activities in the guide, or provide critical feedback that can be used to improve the How-to Guide.
 
 
-## Add links that import a workflow to Galaxy
+### Add links that import a workflow to Galaxy
 
 You can embed links into a How-to Guide that instruct a Galaxy instance to import a specific version of a workflow from a source like [Dockstore](https://dockstore.org/) or [WorkflowHub](https://workflowhub.eu/). The example use case is if you would like a user of your guide to be able to open a workflow by simply clicking a link.
 
 
-### Requirements for workflow import to Galaxy using an embedded link
+#### Requirements for workflow import to Galaxy using an embedded link
 
 1. Create a GitHub repository for your workflow - the guide [available here](https://australianbiocommons.github.io/how-to-doc-guidelines) describes how to use the BioCommons documentation guidelines template for this purpose
 2. Commit your workflow to GitHub
@@ -211,7 +197,7 @@ You can embed links into a How-to Guide that instruct a Galaxy instance to impor
 4. Build the required link, as described in the example below
 
 
-### Example 
+#### Example 
 
 An example workflow import link is included here for Galaxy Australia and WorkflowHub:
 
@@ -232,29 +218,26 @@ If you add these links, don't forget to also cite the workflow. Example for the 
 > Price, G., & Farquharson, K. (2022). PacBio HiFi genome assembly using hifiasm v2.1. WorkflowHub. https://doi.org/10.48546/WORKFLOWHUB.WORKFLOW.221.3
 
 
-## GitHub & Zenodo
+## 10. GitHub & Zenodo
 
 1. [Create a GitHub release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
 2. Link your repository to Zenodo. More information is [available in GitHub docs](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content). 
 
 
-## Adding the DOI to your guide
+## 11. Adding the DOI to your guide
 
-{:start="3"}
-3. Update the DOI field in the `CITATION.cff` file: [example here](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/CITATION.cff) 
+1. Update the DOI field in the `CITATION.cff` file: [example here](https://github.com/AustralianBioCommons/guide-template/blob/ef31713ddb011e3fed11ad36aacd993761f9d771/CITATION.cff) 
 
 {% include callout.html type="note" content="Updating your `CITATION.cff` file allows GitHub to generate a citation for your repository automatically, which can be accessed in the repository 'About' menu." %}
 
-{:start="4"}
-4. Add the DOI (or even a complete citation!) into your how-to cite instructions on the `index.md` page. See example below:
+{:start="2"}
+2. Add the DOI (or even a complete citation!) into your how-to cite instructions on the `index.md` page. See example below:
 
 ```
 Gustafsson, J., Al Bkhetan, Z., Shadbolt, M., Murigneux, V., Williams, S., 
 Capon, P., Khan, F. Z., & Nelson, T. (2023). How-to Guide for creating a 
 How-to Guide (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.8210269
 ```
-
-
 
 {% include callout.html type="important" content="A blank `CITATION.cff` example is provided below. Don't forget to fill out the other metadata in this file!" %} 
 
@@ -270,3 +253,6 @@ version: 0.0.0
 doi: [DOI goes here]
 date-released: YYYY-MM-DD
 ```
+
+
+## 12. Now share the How-to Guide!
