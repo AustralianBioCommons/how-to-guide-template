@@ -1,10 +1,8 @@
 ---
-title: How-to Guide for creating a How-to Guide
+title: About
+sidebar: false
 toc: false
 ---
-
-
-## About
 
 This guide describes *How-to* create new How-to Guide websites using a GitHub repository template. 
 
@@ -16,12 +14,12 @@ The template described in these docs aims to:
 - Allow you to **easily deploy these guides** using GitHub pages and a remote theme provided by ELIXIR; and,
 - Allow linking to Zenodo and **creation of DOIs** for each release. You created the content, others should be able to cite it!
 
-## Please cite this guide as follows
+### Please cite this guide as follows
 
 > Gustafsson, J., Al Bkhetan, Z., Shadbolt, M., Murigneux, V., Williams, S., Capon, P., Khan, F. Z., & Nelson, T. (2023). How-to Guide for creating a How-to Guide (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.8210269
 
 
-## Contributors
+### Contributors
 
 {% include contributor-tiles-all.html %}
 
